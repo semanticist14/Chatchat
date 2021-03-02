@@ -1,0 +1,24 @@
+/* header-base*/
+.header{
+    position : fixed;
+    top:0;
+    width: 100vw;
+    height:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--header-color);
+}
+
+
+.header__text{
+    padding-left: 15px;
+
+}
+
+.header__icons{
+    padding-right:15px;
+}
+
+
+

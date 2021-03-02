@@ -1,0 +1,17 @@
+/* variable */
+@import url("variable.css");
+
+/* component */
+@import url("header.css");
+@import url("main__top.css");
+
+
+/* display */
+
+body{
+    padding:0;
+    margin:0 auto;
+    font-family: var(--main-fonts);
+    padding-top:20px;
+}
+
