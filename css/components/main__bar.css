@@ -1,0 +1,13 @@
+.main__bar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size : 10px;
+    opacity : var(--main-bar)
+}
+
+.main__bar i{
+    margin-right : 15px;
+}
+

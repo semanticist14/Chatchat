@@ -1,0 +1,47 @@
+.main__profile{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100vw;
+    padding : 20px 15px;
+    border-bottom: var(--main-border);
+    box-sizing: border-box;
+}
+
+.main__profile > div{
+    display: flex;
+    align-items: center;
+}
+
+.main__profile div span{
+    margin-left : 15px;
+}
+
+.main__profile > div img{
+    width:60px;
+    height:60px;
+    border-radius: 40%;
+}
+
+.main__profile > div:first-child{
+    font-size : 15px;
+}
+
+.main__profile > div:nth-child(2){
+    padding-right : 10px;
+    font-size : 10px;
+}
+
+/* friends */
+
+/* give birthday message span around icon */
+
+.main__profile__friends__birthday span{
+    padding-right : 5px;
+}
+
+/* continued - removing border - bottom */
+
+.main__profile-continue{
+    border-bottom: none;
+}

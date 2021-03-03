@@ -1,0 +1,31 @@
+@keyframes changeSize{
+    0%{
+        transform : rotateZ(0deg);
+    }
+    25%{
+        transform : rotateZ(-30deg);
+    }
+    75%{
+        transform : rotateZ(30deg);
+    }
+    100%{
+        transform : rotateZ(0deg);
+    }
+}
+
+a i:hover{
+    color : var(--green);
+    opacity : var(--icons-opacity);
+}
+
+.fa-gift{
+    color: var(--red);
+}
+
+.fa-gift:hover{
+    color: var(--red);
+    will-change: transform;
+    animation: changeSize 1s linear infinite;
+}
+
+

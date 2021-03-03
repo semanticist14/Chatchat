@@ -1,0 +1,24 @@
+.main__top{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 10px;
+    border-bottom: var(--main-border);
+    width:100vw;
+    box-sizing: border-box;
+}
+
+.main__top__icons{
+    display:flex;
+    align-items:center;
+}
+
+.main__top__icons a{
+    color: var(--black);
+}
+
+.main__top__icons i{
+    margin-right:15px;
+}
+
+
