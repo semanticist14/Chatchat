@@ -27,8 +27,9 @@
     font-size : 15px;
 }
 
+/* sizing and padidng text + icon */
 .main__profile > div:nth-child(2){
-    padding-right : 10px;
+    padding-right : 20px;
     font-size : 10px;
 }
 

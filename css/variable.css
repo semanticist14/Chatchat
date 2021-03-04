@@ -1,14 +1,22 @@
 :root{
     --main-fonts : 'RocknRoll One', sans-serif;
     --header-color : whitesmoke;
+    --bottom-color : whitesmoke;
     --main-border : 1px solid rgba(0,0,0,0.1);
+    --front-img-cover : rgba(0,0,0,0.3);
 
     /* font & icon color */
+    --white : white;
     --black : rgb(0,0,0);
     --red : rgba(255,0,0,0.5);
     --green : green;
     
     /* font opacity */
+    --opacity-basic : 1.0;
+    --front-notification-opacity-start : 0.7;
+    --front-notification-opacity-end : 0.5;
+    --front-input-opacity : 0.7;
     --icons-opacity : 0.9;
     --main-bar-small-opacity : 0.5; 
+    
 }

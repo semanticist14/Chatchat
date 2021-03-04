@@ -3,6 +3,9 @@
 
 /* component */
 @import url("components/header.css");
+@import url("components/front.css");
+
+
 @import url("components/main__top.css");
 @import url("components/main__profile.css");
 @import url("components/main__bar.css");
@@ -11,22 +14,32 @@
 
 /*display */
 @import url("display/main__icons.css");
+@import url("display/main__bottom.css");
+@import url("display/front__display.css");
 
 
 /* display */
 
+*{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
 body{
-    padding:0;
-    margin:0 auto;
     font-family: var(--main-fonts);
     padding-top:20px;
     text-decoration: none; 
     height:100vh;
+    width:100vw;
     box-sizing: border-box;
 }
 
+/* remove text-decoration */
 a{
     text-decoration: none;
     color: var(--balck);
 }
+
+
 

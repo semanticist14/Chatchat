@@ -17,8 +17,15 @@
     color: var(--black);
 }
 
-.main__top__icons i{
+
+
+.main__top__icons a{
     margin-right:15px;
 }
 
+/* giving padding to fit the screen */
+
+.main__top__icons{
+    margin-right:5px;
+}
 

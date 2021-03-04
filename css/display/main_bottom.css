@@ -1,0 +1,13 @@
+@keyframes slideIn{
+    from{
+        transform : translateY(-30px);
+    }
+    to{
+        transform : translate Y(0px);
+    }
+}
+
+.main_bottom li{
+    will-change: transform;
+    animation : slideIn 1s linear;
+}

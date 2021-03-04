@@ -1,0 +1,84 @@
+/* front */
+.front{
+    position:absolute;
+    height : 100vh;
+    width : 100vw;
+    top:0px;
+    overflow:hidden;
+}
+
+/* img cover */
+.front__background-cover{
+    position:absolute;
+    height : 100vh;
+    width : 100vw;
+    top:0px;
+    background-color: var(--front-img-cover);
+    z-index: 1;
+    overflow:hidden;
+}
+
+/* background img setting */
+.front__background{
+    position : absolute;
+    top:0px;
+    left:0px;
+    height : 100vh;
+    background-color: cover;
+    overflow : hidden;
+}
+
+/* front__wrap to be base of elements */
+.front__wrap{
+    position:realtive;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* notification text based on bakcground front_wrap */
+.front__notification{
+    position : absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top : 80px;
+    color : var(--white);
+    z-index: 2;
+}
+
+.front__notification__last{
+    margin-top : 1rem;
+}
+/* wrapped form setting */
+.front__form{
+    position : absolute;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    top: 160px;
+}
+
+.front__form input{
+    margin-bottom : 25px;
+    padding: 10px;
+    border : none;
+    border-radius: 10px;
+    opacity: var(--front-input-opacity);
+    
+}
+
+/* front form text */
+
+.front__form input::placeholder{
+    font-size : 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+

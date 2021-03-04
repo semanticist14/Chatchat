@@ -1,0 +1,49 @@
+.main_bottom{
+    position: fixed;
+    bottom:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100vw;
+    height:55px;
+    background-color: var(--bottom-color);
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+/* align icons at bottom */
+
+.main_bottom li{
+    width:33%;
+}
+
+.main_bottom li a{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.main_bototm:first-child{
+    margin : auto;
+}
+
+.main_bottom:nth-child(2){
+    text-align: center;
+}
+
+.main_bottom:last-child{
+    display : flex;
+    justify-content: flex-end;
+}
+
+/* change size of font */
+
+.main_bottom span{
+    font-size:10px;
+}
+
+.main_bottom i{
+    font-size:30px;
+}
+

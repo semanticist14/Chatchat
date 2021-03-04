@@ -1,0 +1,44 @@
+.front__form input{
+    transition : all 0.5s linear;
+}
+
+/* front form response */
+.front__form input:active,
+.front__form input:hover,
+.front__form input:focus
+{
+    will-change: auto;
+    opacity : var(--opacity-basic);
+}
+
+/* submit form cursor */
+.front__form input:last-child:hover{
+    cursor:pointer;
+    background-color: var(--black);
+    color:var(--white);
+}
+
+/* notification animation and settings */
+
+@keyframes changeText{
+    0%{
+        opacity:var(--opacity-basic);
+    }
+    50%{
+        color : var(--green);
+        opacity: var(--front-notification-opacity-start);
+    }
+    75%{
+        opacity:var(--front-notification-opacity-end);
+    }
+    100%{
+        color : var(--white);
+        opacity:var(--opacity-basic);
+    }
+}
+
+.front__notification:hover h5{
+    will-change: auto;
+    animation : changeText 3s linear infinite;
+}
+

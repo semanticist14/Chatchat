@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--header-color);
+    z-index: 99;
 }
 
 
@@ -16,7 +17,7 @@
 }
 
 .header__icons{
-    padding-right:24px;
+    padding-right:30px;
 }
 
 
